@@ -11,9 +11,9 @@ with KOW_Config;
 with APQ_Provider;
 
 
-package APQ_Provider.MySQL is
+package APQ_Provider.ct_lib is
 
 
 	function Factory( C : in KOW_Config.Config_File ) return APQ.Connection_Ptr;
 
-end APQ_Provider.MySQL;
+end APQ_Provider.ct_lib;

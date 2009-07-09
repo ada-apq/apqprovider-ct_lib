@@ -3,7 +3,7 @@
 # @author Marcelo Coraça de Freitas <marcelo@kow.com.br> 
 
 
-projectFile="apq_provider-mysql.gpr"
+projectFile="apq_provider-ct_lib.gpr"
 
 
 libs:

@@ -25,6 +25,7 @@ project APQ_Provider.ct_lib is
 	for Library_Name use "apq_provider-ct_lib";
 	for Library_Version use "libapq_provider-ct_lib.so." & Version;
 	for Library_Kind use kow_framework_Setup'Library_Kind;
+	for Externally_Built use "true";
 
 	
 	

@@ -17,11 +17,11 @@ with "apq_provider.gpr";
 project APQ_Provider.ct_lib is
 
 	version	:= APQ_Provider.Version; 
-	prefix	:= $prefix;
 	
 	
-	for Source_Dirs use ( prefix & "/include/apqprovider-ct_lib" );
-	for Library_Dir use prefix & "/lib";
+	
+	for Source_Dirs use ( $include_prefix );
+	for Library_Dir use $lib_prefix;
 	for Library_Name use "apq_provider-ct_lib";
 	for Library_Version use "libapq_provider-ct_lib.so." & Version;
 	for Library_Kind use kow_framework_Setup'Library_Kind;

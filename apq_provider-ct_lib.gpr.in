@@ -16,7 +16,7 @@ with "apq_provider.gpr";
 
 project APQ_Provider.ct_lib is
 
-	version := APQ_Provider.Version; 
+	version := $version;
 	
 	
 	for Source_Dirs use ( "src" );

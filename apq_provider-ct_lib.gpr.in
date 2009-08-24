@@ -8,8 +8,6 @@
 -- $Author: ogro $
 
 
-with "kow_framework_setup.gpr";
-
 with "apq.gpr";
 with "apq-ct_lib.gpr";
 with "apq_provider.gpr";
@@ -24,7 +22,7 @@ project APQ_Provider.ct_lib is
 	for Library_Dir use "lib";
 	for Library_Name use "apq_provider-ct_lib";
 	for Library_Version use "libapq_provider-ct_lib.so." & Version;
-	for Library_Kind use kow_framework_Setup'Library_Kind;
+	for Library_Kind use APQ_Provider'Library_Kind;
 
 	
 	

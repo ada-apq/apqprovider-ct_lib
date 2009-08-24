@@ -8,6 +8,8 @@
 PROJECT_FILES=apq_provider-ct_lib.gpr
 GPR_FILES=apq_provider-ct_lib.gpr
 
+INCLUDE_FILES=src/*
+
 
 include Makefile.include
 

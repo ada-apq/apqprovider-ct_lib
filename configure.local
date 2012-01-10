@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# 
+# Local configuration file for KOW Lib
+
+
+
+project="apqprovider-ct_lib"
+
+check_project apq
+check_project apq-ct_lib
+check_project apqprovider
+
+set_configuration APQPROVIDERCTLIB_EXTERNALLY_BUILT "false"
